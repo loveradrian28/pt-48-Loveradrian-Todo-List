@@ -10,3 +10,49 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #8b16ca;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .App__Container {
+    text-align: center;
+    padding: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  input {
+    width: 65%;
+    background-color: transparent;
+    color: white;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  li {
+    list-style: none;
+    padding: 3px;
+    margin: 5px;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  .HowMany {
+    margin: 10px;
+  }
+  
